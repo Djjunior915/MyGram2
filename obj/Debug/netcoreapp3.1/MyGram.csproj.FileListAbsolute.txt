@@ -1,0 +1,12 @@
+/Users/rafaelhernandez/Desktop/CS131MyGram/MyGram/MyGram/bin/Debug/netcoreapp3.1/MyGram.deps.json
+/Users/rafaelhernandez/Desktop/CS131MyGram/MyGram/MyGram/bin/Debug/netcoreapp3.1/MyGram.runtimeconfig.json
+/Users/rafaelhernandez/Desktop/CS131MyGram/MyGram/MyGram/bin/Debug/netcoreapp3.1/MyGram.runtimeconfig.dev.json
+/Users/rafaelhernandez/Desktop/CS131MyGram/MyGram/MyGram/bin/Debug/netcoreapp3.1/MyGram.dll
+/Users/rafaelhernandez/Desktop/CS131MyGram/MyGram/MyGram/bin/Debug/netcoreapp3.1/MyGram.pdb
+/Users/rafaelhernandez/Desktop/CS131MyGram/MyGram/MyGram/obj/Debug/netcoreapp3.1/MyGram.AssemblyInfoInputs.cache
+/Users/rafaelhernandez/Desktop/CS131MyGram/MyGram/MyGram/obj/Debug/netcoreapp3.1/MyGram.AssemblyInfo.cs
+/Users/rafaelhernandez/Desktop/CS131MyGram/MyGram/MyGram/obj/Debug/netcoreapp3.1/MyGram.csproj.CoreCompileInputs.cache
+/Users/rafaelhernandez/Desktop/CS131MyGram/MyGram/MyGram/obj/Debug/netcoreapp3.1/MyGram.dll
+/Users/rafaelhernandez/Desktop/CS131MyGram/MyGram/MyGram/obj/Debug/netcoreapp3.1/MyGram.pdb
+/Users/rafaelhernandez/Desktop/CS131MyGram/MyGram/MyGram/obj/Debug/netcoreapp3.1/MyGram.genruntimeconfig.cache
+/Users/rafaelhernandez/Desktop/CS131MyGram/MyGram/MyGram/obj/Debug/netcoreapp3.1/MyGram.csprojAssemblyReference.cache
