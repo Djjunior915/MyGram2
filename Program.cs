@@ -9,33 +9,68 @@ namespace MyGram
     {
         static void Main()
         {
-            int[] myArray = new int[10] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+            string response = "";
+            List<User> userList = new List<User>();
+            List<Comment> usercommentList = new List<Comment>();
 
-            Console.WriteLine("The values of the array of the following:");
-            foreach(var item in myArray)
+            while (response!="5")
             {
-                Console.Write(item + ", ");
+
+                Console.WriteLine("1. Create a user");
+                Console.WriteLine("2. Create a Commment");
+                Console.WriteLine("3. Print the List of Users");
+                Console.WriteLine("4. Print the List of Comments");
+                Console.WriteLine("5. Exit");
+
+                Console.WriteLine("");
+                Console.WriteLine("Please select an option");
+                response = Console.ReadLine();
+
+                switch(response)
+                {
+                    case "1":
+                        Users user = new Users();
+                        user.Email = "myemail@somewhere.com";
+                        user.Password = "password";
+                        user.UserId = 1;
+                        user.UserName = "Rafael";
+
+                        userList.Add(user);
+
+                        Console.WriteLine("You have created a user");
+                        break;
+                    case "2":
+                        Comment myComment = new Comment();
+                        myComment.CommentId = 1;
+                        myComment.TheComment = "Hello";
+                       
+                        commentList.Add(myComment);
+
+                        Console.WriteLine("You have created a comment");
+                        break;
+                    case"3"
+                        Console.WriteLine("This is the list of users created");
+
+                        foreach(var insideUser in userList)
+                        {
+                            Console.WriteLine("The user email is: " + insideUser.Email);
+                            Console.WriteLine("The user password is: " + insideUser.Password);
+                            Console.WriteLine("The user id is: " + insideUser.UserId);
+                            Console.WriteLine("The user name is: " + insideUser.UserName;
+                        }
+                        break;
+                    case "4"
+                        Console.WriteLine("This is the list of comments created");
+
+                        foreach (var insideComment in commentList)
+                        {
+                            Console.WriteLine("The comment id is: " + insideComment.CommentId);
+                            Console.WriteLine("The actual comment is: " + insideComment.TheComment);
+                        }
+                        break;
+
+                }
             }
-
-            List<string> myList = new List<string>();
-            myList.Add("Value1");
-            myList.Add("Value2");
-            myList.Add("Value3");
-            myList.Add("Value4");
-            myList.Add("Value5");
-            myList.Add("Value6");
-            myList.Add("Value7");
-            myList.Add("Value8");
-            myList.Add("Value9");
-            myList.Add("Value10");
-
-            Console.WriteLine("");
-            Console.WriteLine("The values of the list of the following:");
-            foreach (var item in myList)
-            {
-                Console.Write(item + ", ");
-            }
-
         }
     }
 }
