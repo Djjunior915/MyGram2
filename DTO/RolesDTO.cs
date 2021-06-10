@@ -1,9 +1,9 @@
 ﻿using System;
 namespace MyGram.MyClasses
 {
-    public class Roles
+    public class RolesDTO
     {
-        public Roles()
+        public RolesDTO()
         {
         }
 

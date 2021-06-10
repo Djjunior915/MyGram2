@@ -1,9 +1,9 @@
 ﻿using System;
 namespace MyGram.MyClasses
 {
-    public class Posts
+    public class PostsDTO
     {
-        public Posts()
+        public PostsDTO()
         {
         }
 

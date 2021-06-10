@@ -1,9 +1,9 @@
 ﻿using System;
 namespace MyGram.MyClasses
 {
-    public class Comments
+    public class CommentsDTO
     {
-        public Comments()
+        public CommentsDTO()
         {
         }
 

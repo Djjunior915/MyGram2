@@ -9,12 +9,23 @@ namespace MyGram
     {
         static void Main()
         {
-            CommentsDTO comment = new CommentsDTO();
-            comment.TheComment = "This is a comment";
+            DateTime myFirstDateVariable = new DateTime(2021, 6, 10);
+            DateTime mySecondDateVariable = new DateTime(2010, 6, 10);
 
+            int result = DateTime.Compare(myFirstDateVariable, mySecondDateVariable);
 
-            Console.WriteLine("The value of my first property is: " + comment.TheComment);
-            
+            //1 = First date is greater than the secomd
+            //0 = Means the two dates are equal
+            //-1 = First date is not greater than the second
+
+            if (result == 1)
+            {
+                Console.WriteLine("First date is greater");
+            } else
+            {
+                Console.WriteLine("Second date is greater");
+
+            }
         }
     }
 }

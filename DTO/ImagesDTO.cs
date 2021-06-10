@@ -1,9 +1,9 @@
 ﻿using System;
 namespace MyGram.MyClasses
 {
-    public class Images
+    public class ImagesDTO
     {
-        public Images()
+        public ImagesDTO()
         {
         }
 
