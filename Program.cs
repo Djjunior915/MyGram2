@@ -9,12 +9,12 @@ namespace MyGram
     {
         static void Main()
         {
-            DateTime myDateTimeVariable = new DateTime(2021,6,3);
-            DateTime myDateTimeVariable2 = DateTime.Now;
+            CommentsDTO comment = new CommentsDTO();
+            comment.TheComment = "This is a comment";
 
-            int result = DateTime.Compare(myDateTimeVariable, myDateTimeVariable2);
 
-            Console.WriteLine(result);
+            Console.WriteLine("The value of my first property is: " + comment.TheComment);
+            
         }
     }
 }
